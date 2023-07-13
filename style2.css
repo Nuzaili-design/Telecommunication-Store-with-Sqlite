@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url(123fh.jpg);
+    background-size: cover;
+}
+form
+{
+    border: 0;
+    background:none;
+    display:block;
+    margin:0 ;
+    text-align:center;
+    border:3px solid #010914;
+    padding:14px 35px;
+    width:220px;
+    outline:none;
+    color: rgb(18, 2, 2);
+    border-radius: 24px;
+    transition:0.25px;
+
+}
+select
+{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid #010710;
+    padding:14px 35px;
+    width:220px;
+    outline:none;
+    color: rgb(24, 2, 2);
+    border-radius: 24px;
+    transition:0.25px;
+
+}
+input[type="button"],input[type="text"]
+{
+    border:0;
+    background:none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:3px solid #01060d;
+    padding:14px 35px;
+    width:220px;
+    outline:none;
+    color: rgb(15, 1, 1);
+    border-radius: 24px;
+    transition:0.25px;
+}
+select:focus
+{
+    width:245px;
+    border-color: #8b8982ec;
+}
+input:focus[type="button"]:focus{
+    width:245px;
+    border-color: #858482ec;
+}
+input[type="text"]:hover{
+
+    background: none;
+}
+input[type="botton"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 2px auto;
+    text-align: center;
+    border: 3px solid #858482ec;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25px;
+    cursor: pointer;;
+
+}
